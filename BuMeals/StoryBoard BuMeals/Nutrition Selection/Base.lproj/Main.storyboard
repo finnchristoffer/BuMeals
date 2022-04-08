@@ -12,79 +12,89 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BuMeals" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Halo, Bun !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSM-Pl-ktT">
-                                <rect key="frame" x="45" y="86" width="146" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ayo kenalan dulu dengan BuMeals!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUB-lb-gdt">
-                                <rect key="frame" x="45" y="148" width="264" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75R-Ch-q53">
-                                <rect key="frame" x="45" y="248" width="156" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F21-mV-6Xn">
-                                <rect key="frame" x="215" y="248" width="156" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0n-Hk-Chz">
-                                <rect key="frame" x="45" y="391" width="156" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TH0-PC-hvj">
-                                <rect key="frame" x="45" y="532" width="156" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQL-uC-njr">
-                                <rect key="frame" x="215" y="532" width="156" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCa-O1-xgl">
-                                <rect key="frame" x="215" y="391" width="156" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcO-0W-qUh">
-                                <rect key="frame" x="45" y="719" width="326" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.49803921579999999" green="0.31764706970000001" blue="0.35294118520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Selanjutnya">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pilih Nutrisi Makanan yang kamu butuhkan " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdT-3p-0Gf">
-                                <rect key="frame" x="45" y="169" width="326" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2et-Wp-5og">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9sr-WO-3GU">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ayo kenalan dulu dengan BuMeals!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGL-7F-6bC">
+                                                <rect key="frame" x="33" y="91" width="264" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pilih nutrisi makanan yang kamu butuhkan " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cR-0O-KRL">
+                                                <rect key="frame" x="33" y="108" width="323" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHL-Nk-y3U">
+                                                <rect key="frame" x="32" y="206" width="152" height="124"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="124" id="dCu-6O-sjJ"/>
+                                                    <constraint firstAttribute="width" constant="152" id="dR7-tt-fEx"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Halo, Bun!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFD-o6-8iQ">
+                                                <rect key="frame" x="32" y="52" width="99" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="Z8k-sx-mnF"/>
+                                                    <constraint firstAttribute="width" constant="99" id="ke3-Dc-n7n"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Halo, Bun!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixX-I4-mZM">
+                                                <rect key="frame" x="145" y="1134" width="99" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.95686274770000002" green="0.5176470876" blue="0.47058826679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="bHL-Nk-y3U" secondAttribute="trailing" constant="230" id="2iV-ss-ota"/>
+                                            <constraint firstItem="bHL-Nk-y3U" firstAttribute="leading" secondItem="9sr-WO-3GU" secondAttribute="leading" constant="32" id="68j-0X-7fP"/>
+                                            <constraint firstItem="bHL-Nk-y3U" firstAttribute="top" secondItem="1cR-0O-KRL" secondAttribute="bottom" constant="77" id="JDp-Pi-y2U"/>
+                                            <constraint firstAttribute="trailing" secondItem="1cR-0O-KRL" secondAttribute="trailing" constant="58" id="Mve-RX-ET7"/>
+                                            <constraint firstItem="1cR-0O-KRL" firstAttribute="leading" secondItem="9sr-WO-3GU" secondAttribute="leading" constant="33" id="Rfx-aD-QoM"/>
+                                            <constraint firstAttribute="bottom" secondItem="bHL-Nk-y3U" secondAttribute="bottom" constant="870" id="Yrq-cq-rQl"/>
+                                            <constraint firstItem="TFD-o6-8iQ" firstAttribute="leading" secondItem="9sr-WO-3GU" secondAttribute="leading" constant="32" id="bIl-n8-nPB"/>
+                                            <constraint firstItem="TFD-o6-8iQ" firstAttribute="top" secondItem="9sr-WO-3GU" secondAttribute="top" constant="52" id="u8x-8k-8ME"/>
+                                            <constraint firstAttribute="height" constant="1200" id="wMu-un-y0a"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9sr-WO-3GU" firstAttribute="leading" secondItem="2et-Wp-5og" secondAttribute="leading" id="Wc7-mb-TBX"/>
+                                    <constraint firstItem="9sr-WO-3GU" firstAttribute="top" secondItem="2et-Wp-5og" secondAttribute="top" id="dSg-2d-76z"/>
+                                    <constraint firstAttribute="bottom" secondItem="9sr-WO-3GU" secondAttribute="bottom" id="id3-7H-WcP"/>
+                                    <constraint firstAttribute="trailing" secondItem="9sr-WO-3GU" secondAttribute="trailing" id="oln-yh-iDS"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.95686274770000002" green="0.5176470876" blue="0.47058826679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2et-Wp-5og" secondAttribute="bottom" id="4Na-An-MBW"/>
+                            <constraint firstItem="9sr-WO-3GU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="DC7-pV-26G"/>
+                            <constraint firstItem="2et-Wp-5og" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qub-DT-7B9"/>
+                            <constraint firstItem="2et-Wp-5og" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R2S-F6-4xy"/>
+                            <constraint firstItem="2et-Wp-5og" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rq0-cY-if2"/>
+                            <constraint firstItem="9sr-WO-3GU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="iRZ-Vf-uHq"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

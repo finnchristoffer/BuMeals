@@ -79,15 +79,15 @@
 		4A5E626B27FEA6550096F5F6 /* StoryBoard BuMeals */ = {
 			isa = PBXGroup;
 			children = (
+				4A9195F427FCB54300D9C791 /* AppDelegate.swift */,
+				4A9195F627FCB54300D9C791 /* SceneDelegate.swift */,
+				4A9195FD27FCB54400D9C791 /* Assets.xcassets */,
 				4A5E627127FEA7A80096F5F6 /* Zat Makanan */,
 				4A5E627027FEA7A10096F5F6 /* Masakan */,
 				4A5E626F27FEA7930096F5F6 /* Bahan Makanan */,
 				4A5E626E27FEA7450096F5F6 /* Pilihan BuMeals, Riwayat, Favorit */,
 				4A5E626D27FEA6F30096F5F6 /* Nutrition Selection */,
 				4A5E626C27FEA6D00096F5F6 /* Welcome Page */,
-				4A9195F427FCB54300D9C791 /* AppDelegate.swift */,
-				4A9195F627FCB54300D9C791 /* SceneDelegate.swift */,
-				4A9195FD27FCB54400D9C791 /* Assets.xcassets */,
 			);
 			path = "StoryBoard BuMeals";
 			sourceTree = "<group>";
