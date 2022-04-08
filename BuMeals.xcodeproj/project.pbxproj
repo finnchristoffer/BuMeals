@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3899C71A28008CB4002ED1E1 /* zatMakanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3899C71928008CB4002ED1E1 /* zatMakanan.swift */; };
+		3899C71C28008CCA002ED1E1 /* zatMakananStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C71B28008CCA002ED1E1 /* zatMakananStoryBoard.storyboard */; };
 		4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9195F427FCB54300D9C791 /* AppDelegate.swift */; };
 		4A9195F727FCB54300D9C791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9195F627FCB54300D9C791 /* SceneDelegate.swift */; };
 		4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9195F827FCB54300D9C791 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3899C71928008CB4002ED1E1 /* zatMakanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zatMakanan.swift; sourceTree = "<group>"; };
+		3899C71B28008CCA002ED1E1 /* zatMakananStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = zatMakananStoryBoard.storyboard; sourceTree = "<group>"; };
 		4A9195F127FCB54300D9C791 /* BuMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9195F427FCB54300D9C791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9195F627FCB54300D9C791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 		4A5E627127FEA7A80096F5F6 /* Zat Makanan */ = {
 			isa = PBXGroup;
 			children = (
+				3899C71928008CB4002ED1E1 /* zatMakanan.swift */,
+				3899C71B28008CCA002ED1E1 /* zatMakananStoryBoard.storyboard */,
 			);
 			path = "Zat Makanan";
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A91960127FCB54400D9C791 /* LaunchScreen.storyboard in Resources */,
+				3899C71C28008CCA002ED1E1 /* zatMakananStoryBoard.storyboard in Resources */,
 				4A9195FE27FCB54400D9C791 /* Assets.xcassets in Resources */,
 				4A9195FC27FCB54300D9C791 /* Main.storyboard in Resources */,
 			);
@@ -315,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */,
+				3899C71A28008CB4002ED1E1 /* zatMakanan.swift in Sources */,
 				4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */,
 				4A9195F727FCB54300D9C791 /* SceneDelegate.swift in Sources */,
 			);
