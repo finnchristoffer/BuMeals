@@ -18,6 +18,8 @@
 		4A91961827FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91961727FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift */; };
 		FA3B51FA28003C9200691F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B51F928003C9200691F87 /* Main.storyboard */; };
 		FA3B51FC28003CDE00691F87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FB28003CDE00691F87 /* ViewController.swift */; };
+		FA3B51FE2802A85B00691F87 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FD2802A85B00691F87 /* Model.swift */; };
+		FA3B52002802A86E00691F87 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FF2802A86E00691F87 /* Object.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4A91961727FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuMealsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA3B51F928003C9200691F87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA3B51FB28003CDE00691F87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA3B51FD2802A85B00691F87 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA3B51FF2802A86E00691F87 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				4A9195F427FCB54300D9C791 /* AppDelegate.swift */,
 				4A9195F627FCB54300D9C791 /* SceneDelegate.swift */,
+				FA3B51FD2802A85B00691F87 /* Model.swift */,
+				FA3B51FF2802A86E00691F87 /* Object.swift */,
 				4A9195FD27FCB54400D9C791 /* Assets.xcassets */,
 				4A5E627127FEA7A80096F5F6 /* Zat Makanan */,
 				4A5E627027FEA7A10096F5F6 /* Masakan */,
@@ -321,9 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3B51FE2802A85B00691F87 /* Model.swift in Sources */,
 				FA3B51FC28003CDE00691F87 /* ViewController.swift in Sources */,
 				4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */,
 				4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */,
+				FA3B52002802A86E00691F87 /* Object.swift in Sources */,
 				4A9195F727FCB54300D9C791 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
