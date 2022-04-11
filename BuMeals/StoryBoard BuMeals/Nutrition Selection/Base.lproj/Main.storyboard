@@ -41,7 +41,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-WH-PsB" userLabel="Protein">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-WH-PsB" userLabel="selectionButtonProtein">
                                                 <rect key="frame" x="32" y="210" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -54,7 +54,7 @@
                                                     <action selector="pressProtein:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="HLi-UK-eWt"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUi-3f-MfV" userLabel="Vitamin A">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUi-3f-MfV" userLabel="selectionButtonVitA">
                                                 <rect key="frame" x="205" y="210" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -67,7 +67,7 @@
                                                     <action selector="pressVitA:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="bFb-Es-Wor"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iq5-oK-422">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iq5-oK-422" userLabel="selectionButtonVitB1">
                                                 <rect key="frame" x="32" y="364" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -80,7 +80,7 @@
                                                     <action selector="pressVitB1:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="vO3-Lt-E9V"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEU-2C-mPG">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEU-2C-mPG" userLabel="selctionButtonVitB2">
                                                 <rect key="frame" x="205" y="364" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -93,7 +93,7 @@
                                                     <action selector="pressVitB2:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="XtL-Oq-Kms"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IID-YN-TRb">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IID-YN-TRb" userLabel="selectionButtonVitB3">
                                                 <rect key="frame" x="32" y="517" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -106,7 +106,7 @@
                                                     <action selector="pressVitB3:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="4b6-6J-PsA"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-vG-grR">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-vG-grR" userLabel="selectionButtonVitB6">
                                                 <rect key="frame" x="205" y="517" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -119,7 +119,7 @@
                                                     <action selector="pressVitB6:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="UOE-Lr-YG3"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qab-f9-yaU">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qab-f9-yaU" userLabel="selectionButtonVitB9">
                                                 <rect key="frame" x="32" y="671" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -131,7 +131,7 @@
                                                     <action selector="pressVitB9:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="apg-yD-1wd"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-LT-hkX">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-LT-hkX" userLabel="selectionButtonC">
                                                 <rect key="frame" x="32" y="825" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -144,7 +144,7 @@
                                                     <action selector="pressVitC:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="l8d-cg-baC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsv-lg-PI6">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsv-lg-PI6" userLabel="selectionButtonVitE">
                                                 <rect key="frame" x="32" y="979" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -156,7 +156,7 @@
                                                     <action selector="pressVitE:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="1HQ-jU-33y"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMZ-dh-d0W">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMZ-dh-d0W" userLabel="selectionButtonVitK">
                                                 <rect key="frame" x="205" y="979" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -169,7 +169,7 @@
                                                     <action selector="pressVitK:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="amJ-4B-ZMn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVC-SP-rRg">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVC-SP-rRg" userLabel="selectionButtonKalsium">
                                                 <rect key="frame" x="32" y="1133" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -182,7 +182,7 @@
                                                     <action selector="pressKalsium:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="ce6-qh-d7F"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upe-VC-q2R">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upe-VC-q2R" userLabel="selectionButtonMagnesium">
                                                 <rect key="frame" x="32" y="1287" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -194,7 +194,7 @@
                                                     <action selector="pressMagnesium:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="3eM-s0-aKW"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ui5-Lj-cSv">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ui5-Lj-cSv" userLabel="selectionButtonYodium">
                                                 <rect key="frame" x="32" y="1441" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -207,7 +207,7 @@
                                                     <action selector="pressYodium:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="X2v-7x-S5o"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJi-dU-TE5">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJi-dU-TE5" userLabel="selectionButtonSelenium">
                                                 <rect key="frame" x="32" y="1595" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -219,7 +219,7 @@
                                                     <action selector="pressSelenium:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="DnF-mD-Ecl"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnf-IL-GDH">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnf-IL-GDH" userLabel="selectionButtonZinc">
                                                 <rect key="frame" x="205" y="1441" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -232,7 +232,7 @@
                                                     <action selector="pressZinc:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="JV0-Nx-VgC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAM-Kj-94M">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAM-Kj-94M" userLabel="selectionButtonZatBesi">
                                                 <rect key="frame" x="205" y="1287" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -244,7 +244,7 @@
                                                     <action selector="pressZatBesi:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="Zjt-NF-aON"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAI-Gz-eMY">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAI-Gz-eMY" userLabel="selectionButtonFosfor">
                                                 <rect key="frame" x="205" y="1132" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -256,7 +256,7 @@
                                                     <action selector="pressFosfor:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="VCB-JA-Hel"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiG-S5-ANJ">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiG-S5-ANJ" userLabel="selectionButtonVitD">
                                                 <rect key="frame" x="205" y="825" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -269,7 +269,7 @@
                                                     <action selector="pressVitD:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="On7-69-moi"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTi-V8-Uf1">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTi-V8-Uf1" userLabel="selectionButtonVitB12">
                                                 <rect key="frame" x="205" y="671" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -281,7 +281,7 @@
                                                     <action selector="pressVitB12:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="yPb-M5-lFB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZD-J9-Woz">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZD-J9-Woz" userLabel="selectionButtonMangan">
                                                 <rect key="frame" x="205" y="1595" width="152" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
@@ -495,27 +495,28 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Fosfor" destination="VAI-Gz-eMY" id="Zhz-oy-7tL"/>
-                        <outlet property="Kalsium" destination="JVC-SP-rRg" id="8Ld-bK-PQU"/>
-                        <outlet property="Magnesium" destination="upe-VC-q2R" id="4sK-gN-HWO"/>
-                        <outlet property="Mangan" destination="fZD-J9-Woz" id="oXs-xI-ZlW"/>
-                        <outlet property="Protein" destination="Xfs-WH-PsB" id="NMC-a1-T1d"/>
                         <outlet property="Selanjutnya" destination="WDT-6u-khu" id="Vlj-lV-vsv"/>
-                        <outlet property="Selenium" destination="KJi-dU-TE5" id="Xlv-5r-dDo"/>
-                        <outlet property="VitaminA" destination="eUi-3f-MfV" id="jmk-7C-fwp"/>
-                        <outlet property="VitaminB1" destination="Iq5-oK-422" id="Ohn-Re-DMK"/>
-                        <outlet property="VitaminB12" destination="kTi-V8-Uf1" id="9ZF-Ou-7D1"/>
-                        <outlet property="VitaminB2" destination="nEU-2C-mPG" id="0t5-UD-gqp"/>
-                        <outlet property="VitaminB3" destination="IID-YN-TRb" id="1hC-tY-LBf"/>
-                        <outlet property="VitaminB6" destination="Cqs-vG-grR" id="dfs-kf-qoX"/>
-                        <outlet property="VitaminB9" destination="Qab-f9-yaU" id="ggH-71-xAc"/>
-                        <outlet property="VitaminC" destination="Z4h-LT-hkX" id="5nL-TW-ZJd"/>
-                        <outlet property="VitaminD" destination="iiG-S5-ANJ" id="rcU-4F-wl5"/>
-                        <outlet property="VitaminE" destination="gsv-lg-PI6" id="agT-Te-vyE"/>
-                        <outlet property="VitaminK" destination="pMZ-dh-d0W" id="Vaw-VV-KdX"/>
-                        <outlet property="Yodium" destination="Ui5-Lj-cSv" id="D7M-pz-vae"/>
-                        <outlet property="ZatBesi" destination="qAM-Kj-94M" id="zk0-Fk-d01"/>
-                        <outlet property="Zinc" destination="tnf-IL-GDH" id="IAS-eV-DRj"/>
+                        <outlet property="infoProtein" destination="4fl-6c-ESi" id="c5a-YX-hdU"/>
+                        <outlet property="selectionButtonFosfor" destination="VAI-Gz-eMY" id="KC6-iJ-FxT"/>
+                        <outlet property="selectionButtonKalsium" destination="JVC-SP-rRg" id="kOd-cL-N24"/>
+                        <outlet property="selectionButtonMagnesium" destination="upe-VC-q2R" id="j8z-fE-Orc"/>
+                        <outlet property="selectionButtonMangan" destination="fZD-J9-Woz" id="lqc-yk-hnb"/>
+                        <outlet property="selectionButtonProtein" destination="Xfs-WH-PsB" id="2yi-pi-jqH"/>
+                        <outlet property="selectionButtonSelenium" destination="KJi-dU-TE5" id="Ghb-td-bAn"/>
+                        <outlet property="selectionButtonVitaminA" destination="eUi-3f-MfV" id="YU4-Im-1BF"/>
+                        <outlet property="selectionButtonVitaminB1" destination="Iq5-oK-422" id="1xb-tj-Yg7"/>
+                        <outlet property="selectionButtonVitaminB12" destination="kTi-V8-Uf1" id="pFK-8e-4SS"/>
+                        <outlet property="selectionButtonVitaminB2" destination="nEU-2C-mPG" id="edg-ra-VZs"/>
+                        <outlet property="selectionButtonVitaminB3" destination="IID-YN-TRb" id="aeT-f5-lLC"/>
+                        <outlet property="selectionButtonVitaminB6" destination="Cqs-vG-grR" id="Del-WZ-81Z"/>
+                        <outlet property="selectionButtonVitaminB9" destination="Qab-f9-yaU" id="7Jw-tw-j5c"/>
+                        <outlet property="selectionButtonVitaminC" destination="Z4h-LT-hkX" id="1oJ-sb-HnF"/>
+                        <outlet property="selectionButtonVitaminD" destination="iiG-S5-ANJ" id="4MQ-i2-B9n"/>
+                        <outlet property="selectionButtonVitaminE" destination="gsv-lg-PI6" id="Ufb-wD-cqU"/>
+                        <outlet property="selectionButtonVitaminK" destination="pMZ-dh-d0W" id="zqX-b0-cID"/>
+                        <outlet property="selectionButtonYodium" destination="Ui5-Lj-cSv" id="o21-Yd-ttA"/>
+                        <outlet property="selectionButtonZatBesi" destination="qAM-Kj-94M" id="mEm-BW-VCB"/>
+                        <outlet property="selectionButtonZinc" destination="tnf-IL-GDH" id="4N9-go-TvR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zUu-iK-CxO" sceneMemberID="firstResponder"/>

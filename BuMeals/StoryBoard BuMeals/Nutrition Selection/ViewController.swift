@@ -8,32 +8,32 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //var arrBahanMakanan:[BahanMakanan]=[Bayam,Bayam,Bayam]
+    //var pilihanUser:JenisZatGizi
+    //var tampilUser:[BahanMakanan]=[]
+
 
     
-   var arrOfPilihanUser:[JenisZatGizi]=[JenisZatGizi.Protein,JenisZatGizi.VitaminB2]
-   var tampilUser:[BahanMakanan]=[]
-
-    
-    @IBOutlet weak var Protein: UIButton!
-    @IBOutlet weak var VitaminA: UIButton!
-    @IBOutlet weak var VitaminB1: UIButton!
-    @IBOutlet weak var VitaminB2: UIButton!
-    @IBOutlet weak var VitaminB3: UIButton!
-    @IBOutlet weak var VitaminB6: UIButton!
-    @IBOutlet weak var VitaminB9: UIButton!
-    @IBOutlet weak var VitaminB12: UIButton!
-    @IBOutlet weak var VitaminC: UIButton!
-    @IBOutlet weak var VitaminD: UIButton!
-    @IBOutlet weak var VitaminE: UIButton!
-    @IBOutlet weak var VitaminK: UIButton!
-    @IBOutlet weak var Kalsium: UIButton!
-    @IBOutlet weak var Fosfor: UIButton!
-    @IBOutlet weak var Magnesium: UIButton!
-    @IBOutlet weak var ZatBesi: UIButton!
-    @IBOutlet weak var Yodium: UIButton!
-    @IBOutlet weak var Zinc: UIButton!
-    @IBOutlet weak var Selenium: UIButton!
-    @IBOutlet weak var Mangan: UIButton!
+    @IBOutlet weak var selectionButtonProtein: UIButton!
+    @IBOutlet weak var selectionButtonVitaminA: UIButton!
+    @IBOutlet weak var selectionButtonVitaminB1: UIButton!
+    @IBOutlet weak var selectionButtonVitaminB2: UIButton!
+    @IBOutlet weak var selectionButtonVitaminB3: UIButton!
+    @IBOutlet weak var selectionButtonVitaminB6: UIButton!
+    @IBOutlet weak var selectionButtonVitaminB9: UIButton!
+    @IBOutlet weak var selectionButtonVitaminB12: UIButton!
+    @IBOutlet weak var selectionButtonVitaminC: UIButton!
+    @IBOutlet weak var selectionButtonVitaminD: UIButton!
+    @IBOutlet weak var selectionButtonVitaminE: UIButton!
+    @IBOutlet weak var selectionButtonVitaminK: UIButton!
+    @IBOutlet weak var selectionButtonKalsium: UIButton!
+    @IBOutlet weak var selectionButtonFosfor: UIButton!
+    @IBOutlet weak var selectionButtonMagnesium: UIButton!
+    @IBOutlet weak var selectionButtonZatBesi: UIButton!
+    @IBOutlet weak var selectionButtonYodium: UIButton!
+    @IBOutlet weak var selectionButtonZinc: UIButton!
+    @IBOutlet weak var selectionButtonSelenium: UIButton!
+    @IBOutlet weak var selectionButtonMangan: UIButton!
     @IBOutlet weak var Selanjutnya: UIButton!
     @IBOutlet weak var infoProtein: UIButton!
     
@@ -50,97 +50,86 @@ class ViewController: UIViewController {
         
     }
     
-    //
-    func tampilUserChecker(arrBahanMakanan:[JenisZatGizi],arrOfPilihanUser:[BahanMakanan]) -> Void{
-        for itemBahan in arrBahanMakanan {
-            for itemPilihan in arrOfPilihanUser{
-                if itemPilihan.checkIfZatGiziExists(jenisZatGizi: itemBahan){
-                    tampilUser.append(itemPilihan)
-                }
-            }
-        }
-    }
-
     
     //error button
     @IBAction func pressProtein(_ sender: Any) {
-        Protein.alpha = 0.4
-    }
+        selectionButtonProtein.alpha = 0.4
+        }
     
     @IBAction func pressVitA(_ sender: Any) {
-        VitaminA.alpha = 0.4
+        selectionButtonVitaminA.alpha = 0.4
     }
 
     @IBAction func pressVitB1(_ sender: Any) {
-        VitaminB1.alpha = 0.4
+        selectionButtonVitaminB1.alpha = 0.4
     }
     
     @IBAction func pressVitB2(_ sender: Any) {
-        VitaminB2.alpha = 0.4
+        selectionButtonVitaminB2.alpha = 0.4
     }
     
     @IBAction func pressVitB3(_ sender: Any) {
-        VitaminB3.alpha = 0.4
+        selectionButtonVitaminB3.alpha = 0.4
     }
     
     @IBAction func pressVitB6(_ sender: Any) {
-        VitaminB6.alpha = 0.4
+        selectionButtonVitaminB6.alpha = 0.4
     }
     
     @IBAction func pressVitB9(_ sender: Any) {
-        VitaminB9.alpha = 0.4
+        selectionButtonVitaminB9.alpha = 0.4
     }
     //error button
     @IBAction func pressVitB12(_ sender: Any) {
-        VitaminB12.alpha = 0.4
+        selectionButtonVitaminB12.alpha = 0.4
     }
     
     @IBAction func pressVitC(_ sender: Any) {
-        VitaminC.alpha = 0.4
+        selectionButtonVitaminC.alpha = 0.4
     }
     
     @IBAction func pressVitD(_ sender: Any) {
-        VitaminD.alpha = 0.4
+        selectionButtonVitaminD.alpha = 0.4
     }
     
     @IBAction func pressVitE(_ sender: Any) {
-        VitaminE.alpha = 0.4
+        selectionButtonVitaminE.alpha = 0.4
     }
     
     @IBAction func pressVitK(_ sender: Any) {
-        VitaminK.alpha = 0.4
+        selectionButtonVitaminK.alpha = 0.4
     }
     
     @IBAction func pressKalsium(_ sender: Any) {
-        Kalsium.alpha = 0.4
+        selectionButtonKalsium.alpha = 0.4
     }
     
     @IBAction func pressFosfor(_ sender: Any) {
-        Fosfor.alpha = 0.4
+        selectionButtonFosfor.alpha = 0.4
     }
     
     @IBAction func pressMagnesium(_ sender: Any) {
-        Magnesium.alpha = 0.4
+        selectionButtonMagnesium.alpha = 0.4
     }
     
     @IBAction func pressZatBesi(_ sender: Any) {
-        ZatBesi.alpha = 0.4
+        selectionButtonZatBesi.alpha = 0.4
     }
     
     @IBAction func pressYodium(_ sender: Any) {
-        Yodium.alpha = 0.4
+        selectionButtonYodium.alpha = 0.4
     }
     
     @IBAction func pressZinc(_ sender: Any) {
-        Zinc.alpha = 0.4
+        selectionButtonZinc.alpha = 0.4
     }
     
     @IBAction func pressSelenium(_ sender: Any) {
-        Selenium.alpha = 0.4
+        selectionButtonSelenium.alpha = 0.4
     }
     
     @IBAction func pressMangan(_ sender: Any) {
-        Mangan.alpha = 0.4
+        selectionButtonMangan.alpha = 0.4
     }
     
     @IBAction func pressSelanjutnya(_ sender: Any) {

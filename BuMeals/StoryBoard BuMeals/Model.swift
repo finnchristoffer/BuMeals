@@ -16,7 +16,7 @@ struct ZatGizi {
 struct BahanMakanan{
     var namaBahan: String
     var tipeBahan: String
-    var gambarBahan: UIImage
+    var gambarBahan: String
     var countMenuPilihanBahan : Int
     var definisiBahan : String
     var arrOfZatGizi: [JenisZatGizi] = []

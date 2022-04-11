@@ -15,7 +15,7 @@ let VitaminA=ZatGizi(titleGizi: "Vitamin A", definisiGizi: "Pada ibu hamil, Vita
  //arrOfResep itu isinya object dari reseo makanan, contoh makanan Bayam brarti jadi arrOfresep:[BayamBeningJagung,]
 
 //let Pisang=BahanMakanan(namaBahan: "Pisang", tipeBahan: "Bh1", gambarBahan: UIImage(named: "pisang.jpg"), countMenuPilihanBahan: 0, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [])
-//let Bayam=BahanMakanan(namaBahan: "Bayam", tipeBahan: "Bh1", gambarBahan: UIImage(named: "pisang.jpg"), countMenuPilihanBahan: 0, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [])
+//let Bayam=BahanMakanan(namaBahan: "Bayam", tipeBahan: "Bh1", gambarBahan: "pisang"), countMenuPilihanBahan: 0, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [])
 
 
 //isi Resep Makanan
