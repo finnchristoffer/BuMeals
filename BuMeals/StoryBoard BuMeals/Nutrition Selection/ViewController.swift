@@ -8,10 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    //var arrBahanMakanan:[BahanMakanan]=[Bayam,Bayam,Bayam]
-    //var pilihanUser:JenisZatGizi
-    //var tampilUser:[BahanMakanan]=[]
-
 
     
     @IBOutlet weak var selectionButtonProtein: UIButton!
@@ -45,8 +41,7 @@ class ViewController: UIViewController {
         Selanjutnya.layer.cornerRadius = 25
         Selanjutnya.layer.masksToBounds = true
         
-        //Init Symbol Info
-        //infoProtein.setImage(UIImage(systemName: "info.circle"), for: .normal)
+       
         
     }
     
