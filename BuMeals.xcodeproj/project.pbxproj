@@ -39,6 +39,7 @@
 		4A91960C27FCB54400D9C791 /* BuMealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91960B27FCB54400D9C791 /* BuMealsTests.swift */; };
 		4A91961627FCB54400D9C791 /* BuMealsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91961527FCB54400D9C791 /* BuMealsUITests.swift */; };
 		4A91961827FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91961727FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift */; };
+		4AB37EBE2805B9EF00B37C9E /* PilihanBuMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB37EBD2805B9EF00B37C9E /* PilihanBuMealsViewController.swift */; };
 		FA3B51FE2802A85B00691F87 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FD2802A85B00691F87 /* Model.swift */; };
 		FA3B52002802A86E00691F87 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FF2802A86E00691F87 /* Object.swift */; };
 		FA410C052805B56A002E85D4 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA410C042805B56A002E85D4 /* ListDetailView.swift */; };
@@ -100,6 +101,7 @@
 		4A91961127FCB54400D9C791 /* BuMealsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuMealsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A91961527FCB54400D9C791 /* BuMealsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuMealsUITests.swift; sourceTree = "<group>"; };
 		4A91961727FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuMealsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AB37EBD2805B9EF00B37C9E /* PilihanBuMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilihanBuMealsViewController.swift; sourceTree = "<group>"; };
 		FA3B51FD2802A85B00691F87 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FA3B51FF2802A86E00691F87 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		FA410C042805B56A002E85D4 /* ListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				FA410C062805B571002E85D4 /* MyApp.swift */,
 				FA410C0A2805B590002E85D4 /* ContentView.swift */,
 				FA410C042805B56A002E85D4 /* ListDetailView.swift */,
+				4AB37EBD2805B9EF00B37C9E /* PilihanBuMealsViewController.swift */,
 			);
 			path = "Pilihan BuMeals, Riwayat, Favorit";
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				FA3B51FE2802A85B00691F87 /* Model.swift in Sources */,
 				FA410C052805B56A002E85D4 /* ListDetailView.swift in Sources */,
 				177F6B6A28048299003A822E /* OnBoardingViewController.swift in Sources */,
+				4AB37EBE2805B9EF00B37C9E /* PilihanBuMealsViewController.swift in Sources */,
 				4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */,
 				4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */,
 				FA410C072805B571002E85D4 /* MyApp.swift in Sources */,

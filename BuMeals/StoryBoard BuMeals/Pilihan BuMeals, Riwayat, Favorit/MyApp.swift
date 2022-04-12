@@ -1,11 +1,11 @@
-import SwiftUI
-
-@main
-struct MyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            BahanMakananListView()
-        }
-    }
-}
-
+//import SwiftUI
+//
+//@main
+//struct MyApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            BahanMakananListView()
+//        }
+//    }
+//}
+//

@@ -17,7 +17,7 @@ struct ContentDetailView:View{
                 .scaledToFit()
                 .frame(width: 0, height: 50, alignment: .center)
                 .cornerRadius(12)
-            
+
             Text(item.namaBahan)
                 .font(.title2)
                 .fontWeight(.semibold)
@@ -34,13 +34,13 @@ struct ContentDetailView:View{
                 Text("Evan Susanto Panjang")
                     .frame(width: 50, height: 50, alignment: .bottom)
             }
-            
+
         }
     }
 }
 
-struct ContentDetailView_Previews: PreviewProvider {
+//struct ContentDetailView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        ContentDetailView(item:SayurBayam)
 //    }
-}
+//}
