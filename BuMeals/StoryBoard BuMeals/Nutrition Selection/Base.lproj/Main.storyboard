@@ -354,7 +354,6 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="pressSelanjutnya:" destination="Ktc-sD-zyS" eventType="touchUpInside" id="xn7-3d-7Ir"/>
-                                                    <segue destination="5ok-v3-kZx" kind="presentation" modalPresentationStyle="fullScreen" id="EgZ-if-NBx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fl-6c-ESi" userLabel="infoProtein">
@@ -739,21 +738,9 @@
                     <view key="view" contentMode="scaleToFill" id="E6T-CX-X5e" userLabel="theContainer">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75D-9R-X7V">
-                                <rect key="frame" x="63" y="63" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Blg-Ke-Il8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="theContainer" destination="75D-9R-X7V" id="Ak9-bn-5dn"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppF-q4-DZY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

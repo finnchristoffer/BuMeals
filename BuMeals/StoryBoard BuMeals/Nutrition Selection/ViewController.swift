@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
 
+    fileprivate let contentViewInHC = UIHostingController(rootView: BahanMakananListView())
     var arrBahanMakanan:[BahanMakanan]=[Pisang,Alpukat,Jeruk,Jagung,DagingSapi,DagingAyam,Salmon,Susu,Telur,Buncis,KacangTanah,KacangPolong,KacangKedelai,SayurBayam,SayurBrokoli,SayurWortel,Ubi ]
     var PilihanUser:JenisZatGizi?
     var tampilUser:[BahanMakanan]=[]
@@ -48,6 +50,20 @@ class ViewController: UIViewController {
         
        
         
+    }
+    
+    fileprivate func setupHC(){
+        addChild(contentViewInHC)
+        view.addSubview(contentViewInHC.view)
+        contentViewInHC.didMove(toParent: self)
+    }
+    
+    fileprivate func setupConstraints() {
+        contentViewInHC.view.translatesAutoresizingMaskIntoConstraints = false
+        contentViewInHC.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        contentViewInHC.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        contentViewInHC.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        contentViewInHC.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     }
     
     func tampilUserChecker(arrBahanMakanan:[BahanMakanan],PilihanUser:JenisZatGizi) -> Void{
@@ -188,7 +204,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressSelanjutnya(_ sender: Any) {
-        
+        setupHC()
+        setupConstraints()
     }
 }
 
