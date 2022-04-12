@@ -340,6 +340,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="gCm-Sc-c3v" kind="presentation" id="jRq-KK-4Ny"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6V-xB-ZI1" userLabel="infoVitB1">
                                                 <rect key="frame" x="139" y="364" width="45" height="31"/>
@@ -348,14 +351,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7L-2Y-6WR" userLabel="infoVitB3">
-                                                <rect key="frame" x="139" y="517" width="45" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
-                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="p92-ns-L3W" kind="presentation" id="mDn-53-ubo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFV-iI-PcK" userLabel="infoVitC">
                                                 <rect key="frame" x="139" y="825" width="45" height="31"/>
@@ -364,6 +362,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="iCF-xv-Yws" kind="presentation" id="GT3-6K-BVR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stX-y8-r4A" userLabel="infoVitD">
                                                 <rect key="frame" x="312" y="825" width="45" height="31"/>
@@ -372,6 +373,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="e00-HP-RQw" kind="presentation" id="5Cb-AM-LIG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owj-yT-OYW" userLabel="infoVitK">
                                                 <rect key="frame" x="313" y="979" width="45" height="31"/>
@@ -380,6 +384,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="6N9-eV-aT3" kind="presentation" id="wUn-Vu-uJf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlI-3g-B6P" userLabel="infoKalsium">
                                                 <rect key="frame" x="139" y="1133" width="45" height="31"/>
@@ -388,6 +395,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="z04-mc-ryG" kind="presentation" id="no5-TW-btf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEx-52-ulu" userLabel="infoYodium">
                                                 <rect key="frame" x="139" y="1441" width="45" height="31"/>
@@ -396,6 +406,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="2IF-3A-q8m" kind="presentation" id="MIl-K5-BEh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRC-UI-bcc" userLabel="infoZinc">
                                                 <rect key="frame" x="312" y="1440" width="45" height="31"/>
@@ -404,6 +417,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="SGx-nu-2rX" kind="presentation" id="jMz-ft-hOL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rs-hq-12z" userLabel="infoVitB6">
                                                 <rect key="frame" x="312" y="517" width="45" height="31"/>
@@ -412,6 +428,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="hPE-Ut-l0n" kind="presentation" id="rgG-oM-NON"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2K-qs-8tH" userLabel="infoVitA">
                                                 <rect key="frame" x="313" y="210" width="45" height="31"/>
@@ -420,6 +439,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="rR2-dd-5Br" kind="presentation" id="Ddt-nq-Yca"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQd-hc-zTP" userLabel="infoVitB9">
                                                 <rect key="frame" x="139" y="671" width="45" height="31"/>
@@ -428,6 +450,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="a9r-OX-1NL" kind="presentation" id="KJq-0g-qTj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cn7-VF-Xss" userLabel="infoVitE">
                                                 <rect key="frame" x="139" y="979" width="45" height="31"/>
@@ -436,6 +461,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Dgs-Zk-6ca" kind="presentation" id="dCj-ha-Qw3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxd-21-XbU" userLabel="infoFosfor">
                                                 <rect key="frame" x="313" y="1132" width="45" height="31"/>
@@ -444,6 +472,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="oCk-oB-Cbg" kind="presentation" id="Ny2-lZ-kkj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT5-1F-rct" userLabel="infoMagnesium">
                                                 <rect key="frame" x="139" y="1287" width="45" height="31"/>
@@ -452,6 +483,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="110-FC-LJn" kind="presentation" id="bGW-yv-dp9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reG-f0-6s1" userLabel="infoSelenium">
                                                 <rect key="frame" x="139" y="1595" width="45" height="31"/>
@@ -460,6 +494,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="R6s-ao-M7C" kind="presentation" id="qAb-8g-YGT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-H1-1W4" userLabel="infoZatBesi">
                                                 <rect key="frame" x="312" y="1286" width="45" height="31"/>
@@ -468,6 +505,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="J6y-sz-g9j" kind="presentation" id="ort-V1-R0F"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XO0-da-PwE" userLabel="infoVitB12">
                                                 <rect key="frame" x="313" y="671" width="45" height="31"/>
@@ -476,6 +516,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Lbi-Bw-co9" kind="presentation" id="3cj-3B-Otv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJS-pD-7Ag" userLabel="infoVitB2">
                                                 <rect key="frame" x="313" y="364" width="45" height="31"/>
@@ -484,6 +527,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="BpM-qK-Qzk" kind="presentation" id="ffS-TH-cpJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BE-Lj-w8L" userLabel="infoMangan">
                                                 <rect key="frame" x="313" y="1595" width="45" height="31"/>
@@ -492,6 +538,20 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
                                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Pim-rs-peP" kind="presentation" id="IAQ-d2-rXu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7L-2Y-6WR" userLabel="infoVitB3">
+                                                <rect key="frame" x="139" y="517" width="45" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="">
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="4fw-63-rf4" kind="presentation" id="RZu-Ml-rTg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.82745099070000006" green="0.40000003579999999" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -551,6 +611,166 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zUu-iK-CxO" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.46153846153846" y="68.957345971563981"/>
+        </scene>
+        <!--screenProtein-->
+        <scene sceneID="MHE-1V-XXn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenProtein" id="gCm-Sc-c3v" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWe-Nx-65e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="-221"/>
+        </scene>
+        <!--screenVitA-->
+        <scene sceneID="YOS-QT-XPw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitA" id="rR2-dd-5Br" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Tc-R1-FWJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="690" y="-195"/>
+        </scene>
+        <!--screenVitB1-->
+        <scene sceneID="reY-am-EpR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitB1" id="p92-ns-L3W" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cer-F2-Kfq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="-173"/>
+        </scene>
+        <!--screenVitB2-->
+        <scene sceneID="97d-5K-7bA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitB2" id="BpM-qK-Qzk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNe-hy-5T1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="-146"/>
+        </scene>
+        <!--screenVitB3-->
+        <scene sceneID="Ijn-aI-6hx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitB3" id="4fw-63-rf4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="apX-0V-ir3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="-117"/>
+        </scene>
+        <!--screenVitB6-->
+        <scene sceneID="HEA-iA-HMQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitB6" id="hPE-Ut-l0n" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OZV-Zd-eXu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="-93"/>
+        </scene>
+        <!--screenVitB9-->
+        <scene sceneID="9Is-Kg-W7b">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitB9" id="a9r-OX-1NL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8b-Fi-BTx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="-68"/>
+        </scene>
+        <!--screenVitB12-->
+        <scene sceneID="xcT-8r-sKw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitB12" id="Lbi-Bw-co9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ecg-lU-VVb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="-39"/>
+        </scene>
+        <!--screenVitC-->
+        <scene sceneID="LBT-i7-Qec">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitC" id="iCF-xv-Yws" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ty1-1V-GkL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="690" y="-9"/>
+        </scene>
+        <!--screenVitD-->
+        <scene sceneID="FWC-CF-9aF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitD" id="e00-HP-RQw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tS8-fU-JhU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="690" y="21"/>
+        </scene>
+        <!--screenVitE-->
+        <scene sceneID="eGe-74-Dai">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitE" id="Dgs-Zk-6ca" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fle-fP-MSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688" y="48"/>
+        </scene>
+        <!--screenFosfor-->
+        <scene sceneID="9DS-9e-7X8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenFosfor" id="oCk-oB-Cbg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ue6-RF-VH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698" y="105"/>
+        </scene>
+        <!--screenKalsium-->
+        <scene sceneID="qxq-hJ-ZEc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenKalsium" id="z04-mc-ryG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esw-3O-8zc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="134"/>
+        </scene>
+        <!--screenMagnesium-->
+        <scene sceneID="g17-EB-IpI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenMagnesium" id="110-FC-LJn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZdR-ft-DTS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="191"/>
+        </scene>
+        <!--screenVitK-->
+        <scene sceneID="syO-gT-MoZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenVitK" id="6N9-eV-aT3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Km1-Ik-Foo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688" y="75"/>
+        </scene>
+        <!--screenMangan-->
+        <scene sceneID="ka4-eH-jCL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenMangan" id="Pim-rs-peP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MQn-CZ-FW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="701" y="306"/>
+        </scene>
+        <!--screenZatBesi-->
+        <scene sceneID="VoY-ZU-QSW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenZatBesi" id="J6y-sz-g9j" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2wc-34-C8F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="164"/>
+        </scene>
+        <!--screenYodium-->
+        <scene sceneID="zDP-P4-YbK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenYodium" id="2IF-3A-q8m" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYK-g4-ZiG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="699" y="247"/>
+        </scene>
+        <!--screenZinc-->
+        <scene sceneID="XUJ-qo-BHn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenZinc" id="SGx-nu-2rX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YxS-cB-RIC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="685" y="219"/>
+        </scene>
+        <!--screenSelenium-->
+        <scene sceneID="wdZ-qO-ldh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="screenSelenium" id="R6s-ao-M7C" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJo-Oj-MQD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="276"/>
         </scene>
     </scenes>
     <resources>

@@ -10,6 +10,27 @@
 		177F6B6A28048299003A822E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F6B6928048299003A822E /* OnBoardingViewController.swift */; };
 		177F6B6C28048304003A822E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177F6B6B28048304003A822E /* Launch Screen.storyboard */; };
 		177F6B6E280484EB003A822E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177F6B6D280484EB003A822E /* Onboarding.storyboard */; };
+		3899C78628051495002ED1E1 /* screenVitB9.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77128051495002ED1E1 /* screenVitB9.storyboard */; };
+		3899C78728051495002ED1E1 /* screenKalsium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77228051495002ED1E1 /* screenKalsium.storyboard */; };
+		3899C78928051495002ED1E1 /* screenFosfor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77428051495002ED1E1 /* screenFosfor.storyboard */; };
+		3899C78A28051495002ED1E1 /* screenVitD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77528051495002ED1E1 /* screenVitD.storyboard */; };
+		3899C78B28051495002ED1E1 /* screenVitB1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77628051495002ED1E1 /* screenVitB1.storyboard */; };
+		3899C78C28051495002ED1E1 /* screenYodium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77728051495002ED1E1 /* screenYodium.storyboard */; };
+		3899C78D28051495002ED1E1 /* screenVitB6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77828051495002ED1E1 /* screenVitB6.storyboard */; };
+		3899C78E28051495002ED1E1 /* screenMagnesium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77928051495002ED1E1 /* screenMagnesium.storyboard */; };
+		3899C78F28051495002ED1E1 /* screenVitC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77A28051495002ED1E1 /* screenVitC.storyboard */; };
+		3899C79028051495002ED1E1 /* screenZatBesi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77B28051495002ED1E1 /* screenZatBesi.storyboard */; };
+		3899C79128051495002ED1E1 /* screenVitB3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77C28051495002ED1E1 /* screenVitB3.storyboard */; };
+		3899C79228051495002ED1E1 /* screenVitB12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77D28051495002ED1E1 /* screenVitB12.storyboard */; };
+		3899C79328051495002ED1E1 /* screenSelenium.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77E28051495002ED1E1 /* screenSelenium.storyboard */; };
+		3899C79428051495002ED1E1 /* screenVitK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C77F28051495002ED1E1 /* screenVitK.storyboard */; };
+		3899C79528051495002ED1E1 /* screenVitE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C78028051495002ED1E1 /* screenVitE.storyboard */; };
+		3899C79628051495002ED1E1 /* screenMangan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C78128051495002ED1E1 /* screenMangan.storyboard */; };
+		3899C79728051495002ED1E1 /* zatMakanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3899C78228051495002ED1E1 /* zatMakanan.swift */; };
+		3899C79828051495002ED1E1 /* screenVitB2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C78328051495002ED1E1 /* screenVitB2.storyboard */; };
+		3899C79928051495002ED1E1 /* screenZinc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C78428051495002ED1E1 /* screenZinc.storyboard */; };
+		3899C79C28051F0F002ED1E1 /* screenProtein.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C79B28051F0F002ED1E1 /* screenProtein.storyboard */; };
+		3899C79E280522E0002ED1E1 /* screenVitA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3899C79D280522E0002ED1E1 /* screenVitA.storyboard */; };
 		4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9195F427FCB54300D9C791 /* AppDelegate.swift */; };
 		4A9195F727FCB54300D9C791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9195F627FCB54300D9C791 /* SceneDelegate.swift */; };
 		4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9195F827FCB54300D9C791 /* ViewController.swift */; };
@@ -43,6 +64,27 @@
 		177F6B6928048299003A822E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		177F6B6B28048304003A822E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		177F6B6D280484EB003A822E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		3899C77128051495002ED1E1 /* screenVitB9.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitB9.storyboard; sourceTree = "<group>"; };
+		3899C77228051495002ED1E1 /* screenKalsium.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenKalsium.storyboard; sourceTree = "<group>"; };
+		3899C77428051495002ED1E1 /* screenFosfor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenFosfor.storyboard; sourceTree = "<group>"; };
+		3899C77528051495002ED1E1 /* screenVitD.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitD.storyboard; sourceTree = "<group>"; };
+		3899C77628051495002ED1E1 /* screenVitB1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitB1.storyboard; sourceTree = "<group>"; };
+		3899C77728051495002ED1E1 /* screenYodium.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenYodium.storyboard; sourceTree = "<group>"; };
+		3899C77828051495002ED1E1 /* screenVitB6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitB6.storyboard; sourceTree = "<group>"; };
+		3899C77928051495002ED1E1 /* screenMagnesium.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenMagnesium.storyboard; sourceTree = "<group>"; };
+		3899C77A28051495002ED1E1 /* screenVitC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitC.storyboard; sourceTree = "<group>"; };
+		3899C77B28051495002ED1E1 /* screenZatBesi.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenZatBesi.storyboard; sourceTree = "<group>"; };
+		3899C77C28051495002ED1E1 /* screenVitB3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitB3.storyboard; sourceTree = "<group>"; };
+		3899C77D28051495002ED1E1 /* screenVitB12.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitB12.storyboard; sourceTree = "<group>"; };
+		3899C77E28051495002ED1E1 /* screenSelenium.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenSelenium.storyboard; sourceTree = "<group>"; };
+		3899C77F28051495002ED1E1 /* screenVitK.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitK.storyboard; sourceTree = "<group>"; };
+		3899C78028051495002ED1E1 /* screenVitE.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitE.storyboard; sourceTree = "<group>"; };
+		3899C78128051495002ED1E1 /* screenMangan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenMangan.storyboard; sourceTree = "<group>"; };
+		3899C78228051495002ED1E1 /* zatMakanan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zatMakanan.swift; sourceTree = "<group>"; };
+		3899C78328051495002ED1E1 /* screenVitB2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitB2.storyboard; sourceTree = "<group>"; };
+		3899C78428051495002ED1E1 /* screenZinc.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenZinc.storyboard; sourceTree = "<group>"; };
+		3899C79B28051F0F002ED1E1 /* screenProtein.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenProtein.storyboard; sourceTree = "<group>"; };
+		3899C79D280522E0002ED1E1 /* screenVitA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = screenVitA.storyboard; sourceTree = "<group>"; };
 		4A9195F127FCB54300D9C791 /* BuMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9195F427FCB54300D9C791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9195F627FCB54300D9C791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +187,27 @@
 		4A5E627127FEA7A80096F5F6 /* Zat Makanan */ = {
 			isa = PBXGroup;
 			children = (
+				3899C78228051495002ED1E1 /* zatMakanan.swift */,
+				3899C79B28051F0F002ED1E1 /* screenProtein.storyboard */,
+				3899C79D280522E0002ED1E1 /* screenVitA.storyboard */,
+				3899C77628051495002ED1E1 /* screenVitB1.storyboard */,
+				3899C78328051495002ED1E1 /* screenVitB2.storyboard */,
+				3899C77C28051495002ED1E1 /* screenVitB3.storyboard */,
+				3899C77828051495002ED1E1 /* screenVitB6.storyboard */,
+				3899C77128051495002ED1E1 /* screenVitB9.storyboard */,
+				3899C77D28051495002ED1E1 /* screenVitB12.storyboard */,
+				3899C77A28051495002ED1E1 /* screenVitC.storyboard */,
+				3899C77528051495002ED1E1 /* screenVitD.storyboard */,
+				3899C78028051495002ED1E1 /* screenVitE.storyboard */,
+				3899C77F28051495002ED1E1 /* screenVitK.storyboard */,
+				3899C77228051495002ED1E1 /* screenKalsium.storyboard */,
+				3899C77428051495002ED1E1 /* screenFosfor.storyboard */,
+				3899C77928051495002ED1E1 /* screenMagnesium.storyboard */,
+				3899C77B28051495002ED1E1 /* screenZatBesi.storyboard */,
+				3899C77728051495002ED1E1 /* screenYodium.storyboard */,
+				3899C78428051495002ED1E1 /* screenZinc.storyboard */,
+				3899C77E28051495002ED1E1 /* screenSelenium.storyboard */,
+				3899C78128051495002ED1E1 /* screenMangan.storyboard */,
 			);
 			path = "Zat Makanan";
 			sourceTree = "<group>";
@@ -299,9 +362,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3899C79E280522E0002ED1E1 /* screenVitA.storyboard in Resources */,
+				3899C78A28051495002ED1E1 /* screenVitD.storyboard in Resources */,
 				4A9195FE27FCB54400D9C791 /* Assets.xcassets in Resources */,
+				3899C79028051495002ED1E1 /* screenZatBesi.storyboard in Resources */,
+				3899C78F28051495002ED1E1 /* screenVitC.storyboard in Resources */,
+				3899C78628051495002ED1E1 /* screenVitB9.storyboard in Resources */,
+				3899C79128051495002ED1E1 /* screenVitB3.storyboard in Resources */,
+				3899C78E28051495002ED1E1 /* screenMagnesium.storyboard in Resources */,
+				3899C79928051495002ED1E1 /* screenZinc.storyboard in Resources */,
+				3899C79228051495002ED1E1 /* screenVitB12.storyboard in Resources */,
+				3899C79428051495002ED1E1 /* screenVitK.storyboard in Resources */,
+				3899C78B28051495002ED1E1 /* screenVitB1.storyboard in Resources */,
 				4A9195FC27FCB54300D9C791 /* Main.storyboard in Resources */,
+				3899C79528051495002ED1E1 /* screenVitE.storyboard in Resources */,
+				3899C78728051495002ED1E1 /* screenKalsium.storyboard in Resources */,
+				3899C78928051495002ED1E1 /* screenFosfor.storyboard in Resources */,
+				3899C78D28051495002ED1E1 /* screenVitB6.storyboard in Resources */,
+				3899C78C28051495002ED1E1 /* screenYodium.storyboard in Resources */,
 				177F6B6C28048304003A822E /* Launch Screen.storyboard in Resources */,
+				3899C79328051495002ED1E1 /* screenSelenium.storyboard in Resources */,
+				3899C79C28051F0F002ED1E1 /* screenProtein.storyboard in Resources */,
+				3899C79628051495002ED1E1 /* screenMangan.storyboard in Resources */,
+				3899C79828051495002ED1E1 /* screenVitB2.storyboard in Resources */,
 				177F6B6E280484EB003A822E /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +414,7 @@
 				177F6B6A28048299003A822E /* OnBoardingViewController.swift in Sources */,
 				4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */,
 				4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */,
+				3899C79728051495002ED1E1 /* zatMakanan.swift in Sources */,
 				FA3B52002802A86E00691F87 /* Object.swift in Sources */,
 				4A9195F727FCB54300D9C791 /* SceneDelegate.swift in Sources */,
 			);
