@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Selanjutnya: UIButton!
     @IBOutlet weak var infoProtein: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -59,10 +60,16 @@ class ViewController: UIViewController {
     
     //error button
     @IBAction func pressProtein(_ sender: Any) {
-        selectionButtonProtein.alpha = 0.4
-        tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.Protein)
-        print(arrBahanMakanan[0].namaBahan)
-        print(tampilUser)
+        if selectionButtonProtein.alpha != 0.4{
+            selectionButtonProtein.alpha = 0.4
+            tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.Protein)
+            print(arrBahanMakanan[0].namaBahan)
+            print(tampilUser)
+
+        } else {
+            selectionButtonProtein.alpha = 1.0
+        }
+        
     }
     
     @IBAction func pressVitA(_ sender: Any) {
