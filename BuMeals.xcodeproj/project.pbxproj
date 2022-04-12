@@ -41,6 +41,9 @@
 		4A91961827FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91961727FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift */; };
 		FA3B51FE2802A85B00691F87 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FD2802A85B00691F87 /* Model.swift */; };
 		FA3B52002802A86E00691F87 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B51FF2802A86E00691F87 /* Object.swift */; };
+		FA410C052805B56A002E85D4 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA410C042805B56A002E85D4 /* ListDetailView.swift */; };
+		FA410C072805B571002E85D4 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA410C062805B571002E85D4 /* MyApp.swift */; };
+		FA410C0B2805B590002E85D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA410C0A2805B590002E85D4 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,9 @@
 		4A91961727FCB54400D9C791 /* BuMealsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuMealsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA3B51FD2802A85B00691F87 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FA3B51FF2802A86E00691F87 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		FA410C042805B56A002E85D4 /* ListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		FA410C062805B571002E85D4 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		FA410C0A2805B590002E85D4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,9 @@
 		4A5E626E27FEA7450096F5F6 /* Pilihan BuMeals, Riwayat, Favorit */ = {
 			isa = PBXGroup;
 			children = (
+				FA410C062805B571002E85D4 /* MyApp.swift */,
+				FA410C0A2805B590002E85D4 /* ContentView.swift */,
+				FA410C042805B56A002E85D4 /* ListDetailView.swift */,
 			);
 			path = "Pilihan BuMeals, Riwayat, Favorit";
 			sourceTree = "<group>";
@@ -411,9 +420,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3B51FE2802A85B00691F87 /* Model.swift in Sources */,
+				FA410C052805B56A002E85D4 /* ListDetailView.swift in Sources */,
 				177F6B6A28048299003A822E /* OnBoardingViewController.swift in Sources */,
 				4A9195F927FCB54300D9C791 /* ViewController.swift in Sources */,
 				4A9195F527FCB54300D9C791 /* AppDelegate.swift in Sources */,
+				FA410C072805B571002E85D4 /* MyApp.swift in Sources */,
+				FA410C0B2805B590002E85D4 /* ContentView.swift in Sources */,
 				3899C79728051495002ED1E1 /* zatMakanan.swift in Sources */,
 				FA3B52002802A86E00691F87 /* Object.swift in Sources */,
 				4A9195F727FCB54300D9C791 /* SceneDelegate.swift in Sources */,
