@@ -10,7 +10,7 @@ import SwiftUI
 
 class ViewController: UIViewController {
 
-    fileprivate let contentViewInHC = UIHostingController(rootView: BahanMakananListView())
+    fileprivate let contentViewInHC = UIHostingController(rootView: BahanMakananListView(tampilUser: []))
     var arrBahanMakanan:[BahanMakanan]=[Pisang,Alpukat,Jeruk,Jagung,DagingSapi,DagingAyam,Salmon,Susu,Telur,Buncis,KacangTanah,KacangPolong,KacangKedelai,SayurBayam,SayurBrokoli,SayurWortel,Ubi ]
     var PilihanUser:JenisZatGizi?
     var tampilUser:[BahanMakanan]=[]

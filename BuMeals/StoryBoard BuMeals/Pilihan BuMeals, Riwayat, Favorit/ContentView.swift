@@ -11,18 +11,21 @@ import SwiftUI
 //                        continue
 //                    }else{
 //                        tampilUser.append(itemPilihan)
-//                    }
+ //                   }
 //
 //                }
 //        }
 //    }
 
 struct BahanMakananListView: View {
-    var tampilUser:[BahanMakanan]=[Pisang,Pisang,Pisang]
+    let tampilUser:[BahanMakanan]?
+    init(tampilUser:[BahanMakanan]){
+        self.tampilUser=tampilUser
+    }
     var body:some View {
         VStack(alignment:.leading,spacing: 10){
             NavigationView{
-                List(tampilUser,id: \.id){item in
+                List(tampilUser!,id: \.id){item in
                     NavigationLink(destination:ContentDetailView(item: item),label:{
                     Image(item.gambarBahan)
                         .resizable()
@@ -39,24 +42,21 @@ struct BahanMakananListView: View {
                             .font(.system(size: 15, weight:.light))
                             .lineLimit(2)
                             .minimumScaleFactor(0.5)
-                        Text("\(String(item.countMenuPilihanBahan)) Menu Bahan")
+                        Text("(String(item.countMenuPilihanBahan)) Menu Bahan")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                         }
                     }
                )}
                 .navigationTitle("Pilihan BuMeals")
-                                       
+
             }
         }
-        
+
         }
     }
-
-
-
 struct ContentView_Previews:PreviewProvider{
     static var previews: some View{
-        BahanMakananListView()
+        BahanMakananListView(tampilUser: [])
     }
 }
