@@ -76,7 +76,7 @@ struct ResepMakanan{
     var titleMakanan: String
     var daftarBahanMasakan: String
     var caraMasakan: String
- 
+    var gambarMasakan: String
 }
 enum JenisZatGizi {
     case Protein
