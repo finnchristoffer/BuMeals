@@ -42,7 +42,7 @@ struct BahanMakananListView: View {
                             .font(.system(size: 15, weight:.light))
                             .lineLimit(2)
                             .minimumScaleFactor(0.5)
-                        Text("(String(item.countMenuPilihanBahan)) Menu Bahan")
+                        Text("\(String(item.countMenuPilihanBahan)) Menu Bahan")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                         }
