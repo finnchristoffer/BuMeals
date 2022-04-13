@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		029A05D72806AA3C004B58B5 /* MasakanStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029A05D62806AA3C004B58B5 /* MasakanStoryboard.storyboard */; };
+		029A05DB2806ACB8004B58B5 /* MasakanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A05DA2806ACB8004B58B5 /* MasakanViewController.swift */; };
 		177F6B6A28048299003A822E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F6B6928048299003A822E /* OnBoardingViewController.swift */; };
 		177F6B6C28048304003A822E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177F6B6B28048304003A822E /* Launch Screen.storyboard */; };
 		177F6B6E280484EB003A822E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177F6B6D280484EB003A822E /* Onboarding.storyboard */; };
@@ -65,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029A05D62806AA3C004B58B5 /* MasakanStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MasakanStoryboard.storyboard; sourceTree = "<group>"; };
+		029A05DA2806ACB8004B58B5 /* MasakanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasakanViewController.swift; sourceTree = "<group>"; };
 		177F6B6928048299003A822E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		177F6B6B28048304003A822E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		177F6B6D280484EB003A822E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
@@ -134,6 +138,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029A05D52806AA09004B58B5 /* Masakan */ = {
+			isa = PBXGroup;
+			children = (
+				029A05D62806AA3C004B58B5 /* MasakanStoryboard.storyboard */,
+				029A05DA2806ACB8004B58B5 /* MasakanViewController.swift */,
+			);
+			path = Masakan;
+			sourceTree = "<group>";
+		};
 		4A5E626B27FEA6550096F5F6 /* StoryBoard BuMeals */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,8 +156,8 @@
 				FA3B51FD2802A85B00691F87 /* Model.swift */,
 				FA3B51FF2802A86E00691F87 /* Object.swift */,
 				4A9195FD27FCB54400D9C791 /* Assets.xcassets */,
+				029A05D52806AA09004B58B5 /* Masakan */,
 				4A5E627127FEA7A80096F5F6 /* Zat Makanan */,
-				4A5E627027FEA7A10096F5F6 /* Masakan */,
 				4A5E626F27FEA7930096F5F6 /* Bahan Makanan */,
 				4A5E626E27FEA7450096F5F6 /* Pilihan BuMeals, Riwayat, Favorit */,
 				4A5E626D27FEA6F30096F5F6 /* Nutrition Selection */,
@@ -187,13 +200,6 @@
 			children = (
 			);
 			path = "Bahan Makanan";
-			sourceTree = "<group>";
-		};
-		4A5E627027FEA7A10096F5F6 /* Masakan */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Masakan;
 			sourceTree = "<group>";
 		};
 		4A5E627127FEA7A80096F5F6 /* Zat Makanan */ = {
@@ -387,6 +393,7 @@
 				3899C79428051495002ED1E1 /* screenVitK.storyboard in Resources */,
 				3899C78B28051495002ED1E1 /* screenVitB1.storyboard in Resources */,
 				4A9195FC27FCB54300D9C791 /* Main.storyboard in Resources */,
+				029A05D72806AA3C004B58B5 /* MasakanStoryboard.storyboard in Resources */,
 				3899C79528051495002ED1E1 /* screenVitE.storyboard in Resources */,
 				3899C78728051495002ED1E1 /* screenKalsium.storyboard in Resources */,
 				3899C78928051495002ED1E1 /* screenFosfor.storyboard in Resources */,
@@ -423,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3B51FE2802A85B00691F87 /* Model.swift in Sources */,
+				029A05DB2806ACB8004B58B5 /* MasakanViewController.swift in Sources */,
 				FA410C052805B56A002E85D4 /* ListDetailView.swift in Sources */,
 				177F6B6A28048299003A822E /* OnBoardingViewController.swift in Sources */,
 				4AB37EBE2805B9EF00B37C9E /* PilihanBuMealsViewController.swift in Sources */,
