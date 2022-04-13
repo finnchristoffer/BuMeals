@@ -17,7 +17,7 @@ class MasakanViewController: UIViewController {
     @IBOutlet weak var imgMasakan: UIImageView!
     
     
-    //TESTING BUTTON ON CLICK
+    //TESTING BUTTON ON CLICK TOLONG DI GANTI
     @IBAction func testButton(_ sender: Any) {
         labelBahan.text = "Aria Ganteng"
         labelMakanan.text = "Aria Ganteng"
