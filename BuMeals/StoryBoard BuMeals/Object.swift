@@ -50,47 +50,47 @@ let Selenium=ZatGizi(titleGizi: "Selenium", definisiGizi: "Pada ibu hamil, Selen
 let Mangan=ZatGizi(titleGizi: "Mangan", definisiGizi: "Pada ibu hamil, Mangan berguna untuk membentuk tulang dan jaringan ikat, serta menjamin fungsi saraf yang baik pada janin,. Selain itu, mangan juga penting dalam metabolisme lemak dan karbohidrat, serta penyerapan kalsium dan regulasi gula dalam darah.")
 
 // Isi Bahan Makanan
-let Pisang=BahanMakanan(namaBahan: "Pisang", tipeBahan: "Bh1", gambarBahan: "Pisang", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [NuggetPisangUbi,BananaCakeCinnamon])
+let Pisang=BahanMakanan(namaBahan: "Pisang", tipeBahan: "Buah", gambarBahan: "Pisang", countMenuPilihanBahan: 2, definisiBahan: "Pisang adalah nama umum yang diberikan pada tumbuhan terna berukuran besar dengan daun memanjang dan besar yang tumbuh langsung dari bagian tangkai. Batang pisang bersifat lunak karena terbentuk dari lapisan pelepah yang lunak dan panjang. Batang yang agak keras berada di bagian permukaan tanah. Pisang memiliki daun bertangkai yang berpencar dan mudah robek dengan bagian batang yang meruncing. Ukuran daun pada tiap spesies pisang juga berbeda-beda. Tangkai pisang menghasilkan bunga dalam jumlah yang banyak.", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [NuggetPisangUbi,BananaCakeCinnamon])
  
-let Alpukat=BahanMakanan(namaBahan: "Alpukat", tipeBahan: "Bh2", gambarBahan: "Alpukat", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminC,JenisZatGizi.VitaminK],arrOfResep: [AlpukatKocokMilo,EsAlpukatKelapaMudaNangka])
+let Alpukat=BahanMakanan(namaBahan: "Alpukat", tipeBahan: "Buah", gambarBahan: "Alpukat", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminC,JenisZatGizi.VitaminK],arrOfResep: [AlpukatKocokMilo,EsAlpukatKelapaMudaNangka])
  
-let Jeruk=BahanMakanan(namaBahan: "Jeruk", tipeBahan: "Bh3", gambarBahan: "Jeruk", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminC,JenisZatGizi.VitaminB9],arrOfResep: [JusTomatWortelJeruk,EsJerukLemon])
+let Jeruk=BahanMakanan(namaBahan: "Jeruk", tipeBahan: "Buah", gambarBahan: "Jeruk", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminC,JenisZatGizi.VitaminB9],arrOfResep: [JusTomatWortelJeruk,EsJerukLemon])
  
-let Mangga=BahanMakanan(namaBahan: "Alpukat", tipeBahan: "Bh4", gambarBahan: "Mangga", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminC,JenisZatGizi.VitaminA],arrOfResep: [MangoThai,RujakManggaMuda])
+let Mangga=BahanMakanan(namaBahan: "Alpukat", tipeBahan: "Buah", gambarBahan: "Mangga", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminC,JenisZatGizi.VitaminA],arrOfResep: [MangoThai,RujakManggaMuda])
  
-let Jagung=BahanMakanan(namaBahan: "Jagung", tipeBahan: "Bh5", gambarBahan: "Jagung", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB9,JenisZatGizi.VitaminB3,JenisZatGizi.VitaminB6,JenisZatGizi.Fosfor,JenisZatGizi.Magnesium,JenisZatGizi.Zinc,JenisZatGizi.Mangan],arrOfResep: [SupJagungWortelTelur,TumisBuncisJagungManis])
+let Jagung=BahanMakanan(namaBahan: "Jagung", tipeBahan: "Buah", gambarBahan: "Jagung", countMenuPilihanBahan: 2, definisiBahan: "Buah", arrOfZatGizi: [JenisZatGizi.VitaminB9,JenisZatGizi.VitaminB3,JenisZatGizi.VitaminB6,JenisZatGizi.Fosfor,JenisZatGizi.Magnesium,JenisZatGizi.Zinc,JenisZatGizi.Mangan],arrOfResep: [SupJagungWortelTelur,TumisBuncisJagungManis])
  
 //=============================================================================
 //hewani
-let DagingSapi=BahanMakanan(namaBahan: "Daging Sapi", tipeBahan: "Hwn1", gambarBahan: "DagingSapi", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.VitaminB12,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB6,JenisZatGizi.Kalsium,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi],arrOfResep: [CahTomatSapiLadaHitam,SupSayurDaging])
+let DagingSapi=BahanMakanan(namaBahan: "Daging Sapi", tipeBahan: "Hewani", gambarBahan: "DagingSapi", countMenuPilihanBahan: 2, definisiBahan: "Daging sapi (bahasa Inggris: beef) adalah daging yang diperoleh dari sapi yang biasa dan umum digunakan untuk keperluan konsumsi makanan.", arrOfZatGizi: [JenisZatGizi.VitaminB12,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB6,JenisZatGizi.Kalsium,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi],arrOfResep: [CahTomatSapiLadaHitam,SupSayurDaging])
  
-let DagingAyam=BahanMakanan(namaBahan: "Daging Ayam", tipeBahan: "Hwn2", gambarBahan: "DagingAyam", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB12,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi],arrOfResep: [SotoSayurAyam,AyamTeriyaki])
+let DagingAyam=BahanMakanan(namaBahan: "Daging Ayam", tipeBahan: "Hewani", gambarBahan: "DagingAyam", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.VitaminB6,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB12,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi],arrOfResep: [SotoSayurAyam,AyamTeriyaki])
  
-let Salmon=BahanMakanan(namaBahan: "Salmon", tipeBahan: "Hwn3", gambarBahan: "Salmon", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.VitaminB12,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [SalmonTeriyaki,SopIkanSalmon])
+let Salmon=BahanMakanan(namaBahan: "Salmon", tipeBahan: "Hewani", gambarBahan: "Salmon", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.VitaminB12,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC],arrOfResep: [SalmonTeriyaki,SopIkanSalmon])
  
-let Susu=BahanMakanan(namaBahan: "Susu", tipeBahan: "Hwn4", gambarBahan: "Susu", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.Protein,JenisZatGizi.VitaminA,JenisZatGizi.VitaminB1,JenisZatGizi.VitaminB2,JenisZatGizi.VitaminB3,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminB12,JenisZatGizi.VitaminC,JenisZatGizi.VitaminD,JenisZatGizi.VitaminE,JenisZatGizi.Kalsium,JenisZatGizi.Fosfor,JenisZatGizi.Magnesium],arrOfResep: [SusuKurma,BananaChocoMilkSmoothies])
+let Susu=BahanMakanan(namaBahan: "Susu", tipeBahan: "Hewani", gambarBahan: "Susu", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.Protein,JenisZatGizi.VitaminA,JenisZatGizi.VitaminB1,JenisZatGizi.VitaminB2,JenisZatGizi.VitaminB3,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminB12,JenisZatGizi.VitaminC,JenisZatGizi.VitaminD,JenisZatGizi.VitaminE,JenisZatGizi.Kalsium,JenisZatGizi.Fosfor,JenisZatGizi.Magnesium],arrOfResep: [SusuKurma,BananaChocoMilkSmoothies])
  
-let Telur=BahanMakanan(namaBahan: "Telur", tipeBahan: "Hwn5", gambarBahan: "telur", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.Protein,JenisZatGizi.VitaminA,JenisZatGizi.VitaminB2,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminD,JenisZatGizi.VitaminE,JenisZatGizi.VitaminK,JenisZatGizi.Kalsium,JenisZatGizi.Fosfor,JenisZatGizi.Zinc,JenisZatGizi.Selenium],arrOfResep: [TelurDadarBalado,TumisSawiTelurTomat])
- 
-//=============================================================================
- 
-let Buncis=BahanMakanan(namaBahan: "Buncis", tipeBahan: "Kcg1", gambarBahan: "Buncis", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.VitaminB9,JenisZatGizi.Protein,JenisZatGizi.VitaminB1,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminE,JenisZatGizi.VitaminK,JenisZatGizi.Fosfor,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi,JenisZatGizi.Zinc,JenisZatGizi.Selenium,JenisZatGizi.Mangan],arrOfResep: [BuncisCumiPeteTumis,TumisTempeBuncisKecap])
- 
-let KacangTanah=BahanMakanan(namaBahan: "Kacang Tanah", tipeBahan: "Kcg2", gambarBahan: "KacangTanah", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.VitaminB9,JenisZatGizi.Protein,JenisZatGizi.Kalsium,JenisZatGizi.ZatBesi],arrOfResep: [SayurAsam,BakpaoIsiKacangTanah])
- 
-let KacangPolong=BahanMakanan(namaBahan: "Kacang Polong", tipeBahan: "Kcg3", gambarBahan: "KacangPolong", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.Protein,JenisZatGizi.VitaminB9,JenisZatGizi.Kalsium,JenisZatGizi.ZatBesi],arrOfResep: [CreamSoupAyamJagungPolong,SeblakPastaSpiral])
- 
-let KacangKedelai=BahanMakanan(namaBahan: "Kacang Kedelai", tipeBahan: "Kcg4", gambarBahan: "KacangKedelai", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.Kalsium,JenisZatGizi.Protein,JenisZatGizi.VitaminB9,JenisZatGizi.ZatBesi],arrOfResep: [SusuKedelai,BayamTahu])
+let Telur=BahanMakanan(namaBahan: "Telur", tipeBahan: "Hewani", gambarBahan: "telur", countMenuPilihanBahan: 2, definisiBahan: "Hewani", arrOfZatGizi: [JenisZatGizi.Protein,JenisZatGizi.VitaminA,JenisZatGizi.VitaminB2,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminD,JenisZatGizi.VitaminE,JenisZatGizi.VitaminK,JenisZatGizi.Kalsium,JenisZatGizi.Fosfor,JenisZatGizi.Zinc,JenisZatGizi.Selenium],arrOfResep: [TelurDadarBalado,TumisSawiTelurTomat])
  
 //=============================================================================
  
-let SayurBayam=BahanMakanan(namaBahan: "Sayur Bayam", tipeBahan: "Syr1", gambarBahan: "Bayam", countMenuPilihanBahan: 2, definisiBahan: "Sayur", arrOfZatGizi: [JenisZatGizi.VitaminA,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminC,JenisZatGizi.VitaminE,JenisZatGizi.VitaminK,JenisZatGizi.Kalsium,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi],arrOfResep: [BayamBeningJagung,Japchae])
+let Buncis=BahanMakanan(namaBahan: "Buncis", tipeBahan: "Kacang", gambarBahan: "Buncis", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.VitaminB9,JenisZatGizi.Protein,JenisZatGizi.VitaminB1,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminE,JenisZatGizi.VitaminK,JenisZatGizi.Fosfor,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi,JenisZatGizi.Zinc,JenisZatGizi.Selenium,JenisZatGizi.Mangan],arrOfResep: [BuncisCumiPeteTumis,TumisTempeBuncisKecap])
  
-let SayurBrokoli=BahanMakanan(namaBahan: "Sayur Brokoli", tipeBahan: "Syr2", gambarBahan: "Brokoli", countMenuPilihanBahan: 2, definisiBahan: "Sayur", arrOfZatGizi: [JenisZatGizi.Fosfor,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminC,JenisZatGizi.VitaminK,JenisZatGizi.ZatBesi,JenisZatGizi.Mangan],arrOfResep: [BrokoliCahWortel,BrokoliJamurSopKental])
+let KacangTanah=BahanMakanan(namaBahan: "Kacang Tanah", tipeBahan: "Kacang", gambarBahan: "KacangTanah", countMenuPilihanBahan: 2, definisiBahan: "Manfaat kacang tanah untuk tubuh memang tidak diragukan lagi. Kacang tanah memiliki nutrisi yang tinggi di dalamnya. Terdapat berbagai jenis kacang-kacangan. Seperti kacang almond, kacang kenari dan kacang mete.", arrOfZatGizi: [JenisZatGizi.VitaminB9,JenisZatGizi.Protein,JenisZatGizi.Kalsium,JenisZatGizi.ZatBesi],arrOfResep: [SayurAsam,BakpaoIsiKacangTanah])
  
-let SayurWortel=BahanMakanan(namaBahan: "Sayur Wortel", tipeBahan: "Syr3", gambarBahan: "Wortel", countMenuPilihanBahan: 2, definisiBahan: "Sayur", arrOfZatGizi: [JenisZatGizi.VitaminA,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminK],arrOfResep: [BrokoliCahWortel, KariKentangWortel])
+let KacangPolong=BahanMakanan(namaBahan: "Kacang Polong", tipeBahan: "Kacang", gambarBahan: "KacangPolong", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.Protein,JenisZatGizi.VitaminB9,JenisZatGizi.Kalsium,JenisZatGizi.ZatBesi],arrOfResep: [CreamSoupAyamJagungPolong,SeblakPastaSpiral])
  
-let Ubi=BahanMakanan(namaBahan: "Ubi", tipeBahan: "Umbi1", gambarBahan: "Ubi", countMenuPilihanBahan: 2, definisiBahan: "Umbi", arrOfZatGizi: [JenisZatGizi.ZatBesi,JenisZatGizi.Protein,JenisZatGizi.VitaminA,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC,JenisZatGizi.Mangan],arrOfResep: [CemilanBolaUbiUngu, SopUbiMakassar])
+let KacangKedelai=BahanMakanan(namaBahan: "Kacang Kedelai", tipeBahan: "Kacang", gambarBahan: "KacangKedelai", countMenuPilihanBahan: 2, definisiBahan: "Kacang", arrOfZatGizi: [JenisZatGizi.Kalsium,JenisZatGizi.Protein,JenisZatGizi.VitaminB9,JenisZatGizi.ZatBesi],arrOfResep: [SusuKedelai,BayamTahu])
+ 
+//=============================================================================
+ 
+let SayurBayam=BahanMakanan(namaBahan: "Sayur Bayam", tipeBahan: "Sayur", gambarBahan: "Bayam", countMenuPilihanBahan: 2, definisiBahan: "ayam (Amaranthus) adalah tumbuhan yang biasa ditanam untuk dikonsumsi daunnya sebagai sayuran hijau. Tumbuhan ini berasal dari Amerika tropik namun sekarang tersebar ke seluruh dunia. Tumbuhan ini dikenal sebagai sayuran sumber zat besi yang penting bagi tubuh.", arrOfZatGizi: [JenisZatGizi.VitaminA,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminC,JenisZatGizi.VitaminE,JenisZatGizi.VitaminK,JenisZatGizi.Kalsium,JenisZatGizi.Magnesium,JenisZatGizi.ZatBesi],arrOfResep: [BayamBeningJagung,Japchae])
+ 
+let SayurBrokoli=BahanMakanan(namaBahan: "Sayur Brokoli", tipeBahan: "Sayur", gambarBahan: "Brokoli", countMenuPilihanBahan: 2, definisiBahan: "Sayur", arrOfZatGizi: [JenisZatGizi.Fosfor,JenisZatGizi.Protein,JenisZatGizi.VitaminC,JenisZatGizi.VitaminB9,JenisZatGizi.VitaminC,JenisZatGizi.VitaminK,JenisZatGizi.ZatBesi,JenisZatGizi.Mangan],arrOfResep: [BrokoliCahWortel,BrokoliJamurSopKental])
+ 
+let SayurWortel=BahanMakanan(namaBahan: "Sayur Wortel", tipeBahan: "Sayur", gambarBahan: "Wortel", countMenuPilihanBahan: 2, definisiBahan: "Sayur", arrOfZatGizi: [JenisZatGizi.VitaminA,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminK],arrOfResep: [BrokoliCahWortel, KariKentangWortel])
+ 
+let Ubi=BahanMakanan(namaBahan: "Ubi", tipeBahan: "Umbi", gambarBahan: "Ubi", countMenuPilihanBahan: 2, definisiBahan: "Ubi adalah istilah untuk umbi dari tanaman berumbi yang dapat dimakan.", arrOfZatGizi: [JenisZatGizi.ZatBesi,JenisZatGizi.Protein,JenisZatGizi.VitaminA,JenisZatGizi.VitaminB6,JenisZatGizi.VitaminC,JenisZatGizi.Mangan],arrOfResep: [CemilanBolaUbiUngu, SopUbiMakassar])
  
 
 

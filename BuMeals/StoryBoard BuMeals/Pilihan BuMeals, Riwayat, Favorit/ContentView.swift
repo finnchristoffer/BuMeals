@@ -38,7 +38,7 @@ struct BahanMakananListView: View {
                             .lineLimit(2)
                             .font(.system(size: 20))
                             .minimumScaleFactor(0.5)
-                        Text((item.tipeBahan+"/"+item.checkJenisZatGiziName(jenisZatGizi: item.arrOfZatGizi[0])))
+                        Text((item.tipeBahan+" / "+item.checkJenisZatGiziName(jenisZatGizi: item.arrOfZatGizi[0])))
                             .font(.system(size: 15, weight:.light))
                             .lineLimit(2)
                             .minimumScaleFactor(0.5)

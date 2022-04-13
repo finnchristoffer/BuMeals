@@ -9,11 +9,11 @@ import UIKit
 import SwiftUI
 
 class ViewController: UIViewController {
-    fileprivate var contentViewInHC:UIHostingController<BahanMakananListView> = UIHostingController(rootView: BahanMakananListView(tampilUser: tampilUser))
+    fileprivate var contentViewInHC:UIHostingController<BahanMakananListView> = UIHostingController(rootView: BahanMakananListView(tampilUser: []))
     var arrBahanMakanan:[BahanMakanan]=[Pisang,Alpukat,Jeruk,Jagung,DagingSapi,DagingAyam,Salmon,Susu,Telur,Buncis,KacangTanah,KacangPolong,KacangKedelai,SayurBayam,SayurBrokoli,SayurWortel,Ubi ]
     var PilihanUser:JenisZatGizi?
-    
-    static var tampilUser:[BahanMakanan]=[]
+    var arrPilihanUser:[JenisZatGizi] = [JenisZatGizi.Protein,JenisZatGizi.VitaminA]
+    var tampilUser:[BahanMakanan]=[]
     
     @IBOutlet weak var selectionButtonProtein: UIButton!
     @IBOutlet weak var selectionButtonVitaminA: UIButton!
@@ -66,18 +66,27 @@ class ViewController: UIViewController {
     }
     
     func tampilUserChecker(arrBahanMakanan:[BahanMakanan],PilihanUser:JenisZatGizi) -> Void{
-                for itemPilihan in arrBahanMakanan{
-                    if itemPilihan.checkIfZatGiziExists(jenisZatGizi: PilihanUser){
-                        if ViewController.tampilUser.contains(where: { makanan in
-                            return makanan.checkIfZatGiziExists(jenisZatGizi: PilihanUser)
-                        }){
-                            continue
-                        }else{
-                            ViewController.tampilUser.append(itemPilihan)
-                        }
-    
-                    }
+//                for itemPilihan in arrBahanMakanan{
+//                    if itemPilihan.checkIfZatGiziExists(jenisZatGizi: PilihanUser){
+//                        if tampilUser.contains(where: { makanan in
+//                            return makanan.checkIfZatGiziExists(jenisZatGizi: PilihanUser)
+//                        }){
+//                            print(itemPilihan)
+//                        }else{
+//                            tampilUser.append(itemPilihan)
+//                        }
+//
+                    //}
+            //}
+        tampilUser = arrBahanMakanan.filter { makanan in
+            //makanan.checkIfZatGiziExists(jenisZatGizi: PilihanUser)
+            var hasil = false
+            for user in arrPilihanUser {
+                makanan.checkIfZatGiziExists(jenisZatGizi: user)
+                
             }
+        }
+        
         }
     
     //error button
@@ -86,7 +95,7 @@ class ViewController: UIViewController {
             selectionButtonProtein.alpha = 0.4
             tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.Protein)
             print(arrBahanMakanan[0].namaBahan)
-
+            print(tampilUser)
         } else {
             selectionButtonProtein.alpha = 1.0
         }
@@ -208,6 +217,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressSelanjutnya(_ sender: Any) {
+        contentViewInHC = UIHostingController(rootView: BahanMakananListView(tampilUser: tampilUser))
         setupHC()
         setupConstraints()
     }
