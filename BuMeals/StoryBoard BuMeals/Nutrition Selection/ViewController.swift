@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var PilihanUser:JenisZatGizi?
     var arrPilihanUser:[JenisZatGizi] = [JenisZatGizi.Protein,JenisZatGizi.VitaminA]
     var tampilUser:[BahanMakanan]=[]
+    var selectedItems:[JenisZatGizi]=[]
     
     @IBOutlet weak var selectionButtonProtein: UIButton!
     @IBOutlet weak var selectionButtonVitaminA: UIButton!
@@ -65,6 +66,15 @@ class ViewController: UIViewController {
         contentViewInHC.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     }
     
+    func tampilUser1() -> Void {
+        tampilUser = arrBahanMakanan.filter {
+            makanan in
+            makanan.arrOfZatGizi.contains  {
+                zatgizi in selectedItems.contains(zatgizi)
+            }
+        }
+    }
+    
     func tampilUserChecker(arrBahanMakanan:[BahanMakanan],PilihanUser:JenisZatGizi) -> Void{
 //                for itemPilihan in arrBahanMakanan{
 //                    if itemPilihan.checkIfZatGiziExists(jenisZatGizi: PilihanUser){
@@ -78,22 +88,18 @@ class ViewController: UIViewController {
 //
                     //}
             //}
-        tampilUser = arrBahanMakanan.filter { makanan in
-            //makanan.checkIfZatGiziExists(jenisZatGizi: PilihanUser)
-            var hasil = false
-            for user in arrPilihanUser {
-                makanan.checkIfZatGiziExists(jenisZatGizi: user)
-                
-            }
-        }
-        
-        }
+        tampilUser = arrBahanMakanan.filter( { makanan in
+                makanan.checkIfZatGiziExists(jenisZatGizi: PilihanUser)
+        })
+    }
     
     //error button
     @IBAction func pressProtein(_ sender: Any) {
         if selectionButtonProtein.alpha != 0.4{
+            selectedItems.append(JenisZatGizi.VitaminA)
             selectionButtonProtein.alpha = 0.4
-            tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.Protein)
+//            tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.Protein)
+            tampilUser1()
             print(arrBahanMakanan[0].namaBahan)
             print(tampilUser)
         } else {
@@ -102,13 +108,17 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func pressVitA(_ sender: Any) {
+    @IBAction func pressVitA(_ sender: Any)
+    {
+        selectedItems.append(JenisZatGizi.VitaminA)
         selectionButtonVitaminA.alpha = 0.4
-        tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.VitaminA)
+//        tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.VitaminA)
+        tampilUser1()
         print(arrBahanMakanan[0].namaBahan)
     }
 
     @IBAction func pressVitB1(_ sender: Any) {
+        selectedItems.append(JenisZatGizi.VitaminB1)
         selectionButtonVitaminB1.alpha = 0.4
         tampilUserChecker(arrBahanMakanan: arrBahanMakanan, PilihanUser: JenisZatGizi.VitaminB1)
         print(arrBahanMakanan[0].namaBahan)
