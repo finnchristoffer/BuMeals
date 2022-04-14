@@ -18,7 +18,9 @@ struct ContentDetailView:View{
         }
     }
     let columns=Array(repeating: GridItem(.flexible(),spacing:10), count:  3)
+    var i=0
     var body:some View{
+        NavigationView {
         ZStack{
             Color("BuMeals")
                 .ignoresSafeArea()
@@ -37,9 +39,10 @@ struct ContentDetailView:View{
                 .lineLimit(2)
             ScrollView{
                 LazyVGrid(columns: columns,spacing: 10){
-                    ForEach(0..<6){_ in
-                        Color.blue
-                            .frame(height:20)
+                    ForEach(0..<arr.count){ i in
+                        Text(arr[i])
+                            .frame(height: 20)
+                        
 
                     }
                 }.padding(70)
@@ -65,28 +68,26 @@ struct ContentDetailView:View{
 //            }
             
             HStack(spacing:10){
-                NavigationView{
                     NavigationLink(
-                        destination: ResepDetailView(item:item.arrOfResep[0]),label:{
+                        destination: ResepDetailView(item:item.arrOfResep[0])) {
                             CardView(gambar:item.arrOfResep[0].gambarMasakan, title: item.arrOfResep[0].titleMakanan, bahanMakanan: item.arrOfResep[0].daftarBahanMasakan)
-                        })
-                }
-                NavigationView{
-                    NavigationLink(
-                        destination: ResepDetailView(item:item.arrOfResep[1]),label:{
-                CardView(gambar: item.arrOfResep[1].gambarMasakan, title: item.arrOfResep[1].titleMakanan, bahanMakanan: item.arrOfResep[1].daftarBahanMasakan)
-                        })
                         }
+                
+                
+                        NavigationLink(
+                            destination: ResepDetailView(item:item.arrOfResep[1])) {
+                                CardView(gambar:item.arrOfResep[1].gambarMasakan, title: item.arrOfResep[1].titleMakanan, bahanMakanan: item.arrOfResep[1].daftarBahanMasakan)
+                            }
             }
         }
     }
-    
+        }
 }
-struct ContentDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentDetailView(item:SayurBayam)
-    }
-}
+//struct ContentDetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentDetailView(item)
+//    }
+//}
 struct CardView: View{
     var gambar:String?
     var title:String?
@@ -118,6 +119,7 @@ struct CardView: View{
                 .frame(width: cardAndImageWidth, height: cardHeight)
                 .cornerRadius(cornerRadius)
             }
+            
         }
         private let cardAndImageWidth: CGFloat = 170
         private let cardHeight: CGFloat = 174

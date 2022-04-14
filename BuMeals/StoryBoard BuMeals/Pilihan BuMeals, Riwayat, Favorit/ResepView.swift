@@ -33,7 +33,7 @@ struct ResepDetailView:View{
             Text(item.daftarBahanMasakan)
                 .font(.title)
                 .fontWeight(.semibold)
-            Text("Definisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi BlaDefinisi Bla")
+            Text(item.caraMasakan)
 //                .resizable()
                 .frame(maxWidth: .infinity, maxHeight: 500, alignment: .leading)
                 .padding(.leading,75)
