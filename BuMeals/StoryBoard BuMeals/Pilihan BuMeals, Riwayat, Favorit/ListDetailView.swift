@@ -10,37 +10,118 @@ import SwiftUI
 
 struct ContentDetailView:View{
     var item:BahanMakanan
+    var arr:[String]=[]
+    let spacing:CGFloat=10
+    mutating func gabungArray(items:BahanMakanan)->Void{
+        for item in items.arrOfZatGizi{
+            arr.append(items.checkJenisZatGiziName(jenisZatGizi: item ))
+        }
+    }
+    let columns=Array(repeating: GridItem(.flexible(),spacing:10), count:  3)
     var body:some View{
-        VStack(spacing:20){
+        ZStack{
+            Color("BuMeals")
+                .ignoresSafeArea()
+        VStack(spacing:5){
             Image(item.gambarBahan)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 0, height: 50, alignment: .center)
+                .padding(.top,50)
+                .padding([.horizontal,.leading],100)
+                .frame(width:500, height:250,alignment:.center)
+                .background(.white)
                 .cornerRadius(12)
-
+                .edgesIgnoringSafeArea(.top)
             Text(item.namaBahan)
-                .font(.title2)
-                .fontWeight(.semibold)
+                .font(.title)
                 .lineLimit(2)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal)
-            HStack{
-                Text(item.definisiBahan)
-            }
-            Spacer()
-            HStack(spacing:40){
-                Text("Baca")
-                    .frame(width: 50, height: 50, alignment: .leading)
-                Text("Evan Susanto Panjang")
-                    .frame(width: 50, height: 50, alignment: .bottom)
-            }
+            ScrollView{
+                LazyVGrid(columns: columns,spacing: 10){
+                    ForEach(0..<6){_ in
+                        Color.blue
+                            .frame(height:20)
 
+                    }
+                }.padding(70)
+            }
+            Text("Tentang"+" "+item.namaBahan)
+                .font(.title)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.trailing)
+                
+            Text(item.definisiBahan)
+//                .resizable()
+                .frame(maxWidth: .infinity, maxHeight: 500, alignment: .leading)
+                .padding(.leading,75)
+                .padding(.trailing,65)
+                .lineLimit(nil)
+                .multilineTextAlignment(.leading)
+//                .multilineTextAlignment(.leading)
+//                .padding(.horizontal)
+//            ScrollView{
+//                LazyVGrid(columns: arr, spacing: spacing){
+//
+//                }
+//            }
+            
+            HStack(spacing:10){
+                NavigationView{
+                    NavigationLink(
+                        destination: ResepDetailView(item:item.arrOfResep[0]),label:{
+                            CardView(gambar:item.arrOfResep[0].gambarMasakan, title: item.arrOfResep[0].titleMakanan, bahanMakanan: item.arrOfResep[0].daftarBahanMasakan)
+                        })
+                }
+                NavigationView{
+                    NavigationLink(
+                        destination: ResepDetailView(item:item.arrOfResep[1]),label:{
+                CardView(gambar: item.arrOfResep[1].gambarMasakan, title: item.arrOfResep[1].titleMakanan, bahanMakanan: item.arrOfResep[1].daftarBahanMasakan)
+                        })
+                        }
+            }
         }
     }
+    
 }
-
-//struct ContentDetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentDetailView(item:SayurBayam)
-//    }
-//}
+struct ContentDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentDetailView(item:SayurBayam)
+    }
+}
+struct CardView: View{
+    var gambar:String?
+    var title:String?
+    var bahanMakanan:String?
+        var body: some View {
+            
+            ZStack {
+                RoundedRectangle(cornerRadius: cornerRadius)
+                    .strokeBorder(SwiftUI.Color.gray, lineWidth: 1)
+                    .frame(width: cardAndImageWidth, height: cardHeight)
+                    .background(SwiftUI.Color.white)
+                VStack(alignment: .leading, spacing: 10) {
+                    Image(gambar!)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: cardAndImageWidth, height: imageHeight)
+                        .clipped()
+                    LazyVStack(alignment: .leading, spacing: 2) {
+                        Text(title!)
+                            .font(.custom("Avenir", size: 14))
+                            .fontWeight(.bold)
+                        Text(bahanMakanan!)
+                            .font(.custom("Avenir", size: 12))
+                            .foregroundColor(SwiftUI.Color.gray)
+                    }
+                    .padding(.horizontal,12)
+                    .padding(.bottom,11)
+                }
+                .frame(width: cardAndImageWidth, height: cardHeight)
+                .cornerRadius(cornerRadius)
+            }
+        }
+        private let cardAndImageWidth: CGFloat = 170
+        private let cardHeight: CGFloat = 174
+        private let imageHeight: CGFloat = 116
+        private let cornerRadius: CGFloat = 20
+    }
+}
