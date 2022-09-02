@@ -22,10 +22,10 @@ struct BahanMakananListView: View {
         self.tampilUser=tampilUser
     }
     var body:some View {
-            
+        NavigationView{
 //        Spacer(minLength: 5)
         VStack(alignment:.leading,spacing: 10){
-            NavigationView{
+            
                 List(tampilUser!,id: \.id){item in
                     NavigationLink(destination:ContentDetailView(item: item),label:{
                     Image(item.gambarBahan)

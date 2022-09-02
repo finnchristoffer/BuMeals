@@ -22,31 +22,32 @@ struct ContentDetailView:View{
     var body:some View{
         NavigationView {
         ZStack{
-            Color("BuMeals")
+            Color(.white)
                 .ignoresSafeArea()
         VStack(spacing:5){
             Image(item.gambarBahan)
                 .resizable()
                 .scaledToFit()
-                .padding(.top,50)
-                .padding([.horizontal,.leading],100)
-                .frame(width:500, height:250,alignment:.center)
-                .background(.white)
-                .cornerRadius(12)
-                .edgesIgnoringSafeArea(.top)
+//                .padding(.top,50)
+//                .padding([.horizontal,.leading],100)
+//                .frame(width:500, height:250,alignment:.center)
+//                .background(.white)
+//                .cornerRadius(12)
+//                .edgesIgnoringSafeArea(.top)
             Text(item.namaBahan)
                 .font(.title)
                 .lineLimit(2)
-            ScrollView{
-                LazyVGrid(columns: columns,spacing: 10){
-                    ForEach(0..<arr.count){ i in
-                        Text(arr[i])
-                            .frame(height: 20)
-                        
-
-                    }
-                }.padding(70)
-            }
+                Spacer()
+//            ScrollView{
+//                LazyVGrid(columns: columns,spacing: 10){
+//                    ForEach(0..<arr.count){ i in
+//                        Text(arr[i])
+//                            .frame(height: 20)
+//
+//
+//                    }
+//                }.padding(70)
+//            }
             Text("Tentang"+" "+item.namaBahan)
                 .font(.title)
                 .fontWeight(.semibold)
@@ -70,13 +71,13 @@ struct ContentDetailView:View{
             HStack(spacing:10){
                     NavigationLink(
                         destination: ResepDetailView(item:item.arrOfResep[0])) {
-                            CardView(gambar:item.arrOfResep[0].gambarMasakan, title: item.arrOfResep[0].titleMakanan, bahanMakanan: item.arrOfResep[0].daftarBahanMasakan)
+                            CardView(gambar:item.arrOfResep[0].gambarMasakan, title: item.arrOfResep[0].titleMakanan, bahanMakanan: "")
                         }
                 
                 
                         NavigationLink(
                             destination: ResepDetailView(item:item.arrOfResep[1])) {
-                                CardView(gambar:item.arrOfResep[1].gambarMasakan, title: item.arrOfResep[1].titleMakanan, bahanMakanan: item.arrOfResep[1].daftarBahanMasakan)
+                                CardView(gambar:item.arrOfResep[1].gambarMasakan, title: item.arrOfResep[1].titleMakanan, bahanMakanan: "")
                             }
             }
         }
@@ -103,7 +104,7 @@ struct CardView: View{
                     Image(gambar!)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(width: cardAndImageWidth, height: imageHeight)
+                        .frame(width: cardAndImageWidth, height: 100)
                         .clipped()
                     LazyVStack(alignment: .leading, spacing: 2) {
                         Text(title!)
